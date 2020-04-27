@@ -1,0 +1,106 @@
+.content-services{
+    padding: 50px 0;
+
+
+    .content-services-list{
+        width: 80%;
+        margin-left: 20%;
+        background: $green;
+        height: 160px;
+        display: block;
+        // display: flex;
+        // justify-content: space-between;
+
+
+        .owl-home-carousel{
+            height: 100%;
+            width: 100%;
+            padding-left: 70px;
+            padding-top: 50px;
+            // display: block;
+
+            .owl-nav{
+                position: absolute;
+                left: 10px;
+                top: 45px;
+
+                .owl-prev{
+                    // margin-top: 10px;
+                    display: block;
+                    width: 40px;
+                    height: 40px;
+                    position: relative;
+                    span{
+                        
+                    // border-radius: 50%;
+                    font-size: 70px;
+                    position: absolute;
+                    left: 10px;
+                    top: -23px;
+
+                    }
+                    
+
+                }
+
+                .owl-next{
+                    display: none;
+                }
+
+
+
+            }
+
+
+
+            .services-item{
+                position: relative;
+                width: 230px;
+                display: block;
+    
+                .services-image{
+                    // position: absolute;
+                    // left: 0;
+                    width: 50px;
+                    // img{
+                    //     display: block;
+                    //     width: 100%;
+    
+                    // }
+                    
+    
+    
+                }
+                .services-text{
+                    position: absolute;
+                    left: 68px;
+                    top: 0;
+    
+                    p{
+                        font-family: Montserrat;
+                    }
+    
+    
+                    p.services-text_title{
+                        font-size: 18px;
+                        line-height: 22px;
+    
+                    }
+    
+                    p.services-text_desc{
+                        font-size: 12px;
+                        line-height: 16px;
+    
+                    }
+    
+                }
+            }
+
+
+
+
+        }
+        
+
+    }
+}

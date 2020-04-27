@@ -1,0 +1,40 @@
+
+h1{
+    font-family: Montserrat-SemiBold;
+    font-size: 48px;
+    line-height: 62px;
+    color: $black;
+    text-transform: uppercase;
+}
+
+h3.section-title{
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 62px;
+    color: $black;
+    text-transform: uppercase;
+    width: 80%;
+    margin-bottom: 40px;
+
+}
+
+p.content_text{
+    font-family: Montserrat-Light;
+    font-size: 24px;
+    line-height: 31px;
+    color: $black;
+
+}
+
+.form-title,
+.contact-title{
+    p{
+        font-family: 'Montserrat';
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+
+
+    }
+}
